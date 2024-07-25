@@ -22,8 +22,9 @@ Make sure to restart helix and try to use it by:
 
 ## Showcase
 
-![Rust code from helix core](./showcase_melange_helix.png)
+![Rust code from helix core](https://github.com/user-attachments/assets/394860ec-4b5b-4923-8a67-ecf7021fb922)
 
 ## LICENSE
 
 This project is distributed under the MIT license.
+
