@@ -1,0 +1,126 @@
+# Melange
+# Author: Dimitris Dimitropoulos <dimitris.dimitropoulos00@gmail.com>
+# Author's github: <https://github.com/DimitrisDimitropoulos>
+# This theme is a port of the "melange-nvim" colorscheme https://github.com/savq/melange-nvim
+
+"ui.background" = { bg = "a_bg" }
+"ui.window" = { fg = "a_float" }
+"ui.text" = { fg = "a_fg" }
+"ui.text.focus" = { fg = "c_yellow" }
+"ui.cursor" = { bg = "a_ui", modifiers = ["reverse"] }
+"ui.selection" = { bg = "a_sel" }
+"ui.selection.primary" = { bg = "a_sel" }
+"ui.cursorline.primary" = { bg = "a_sel" }
+"ui.linenr" = { fg = "a_ui" }
+"ui.linenr.selected" = { fg = "c_yellow", modifiers = ["bold"] }
+"ui.virtual.whitespace" = { fg = "a_com" }
+"ui.virtual.indent-guide" = { fg = "b_blue" }
+"ui.statusline" = { fg = "a_fg", bg = "a_float" }
+"ui.statusline.normal" = { bg = "b_blue", fg = "a_bg", modifiers = ["bold"] }
+"ui.statusline.insert" = { bg = "b_green", fg = "a_bg", modifiers = ["bold"] }
+"ui.statusline.select" = { bg = "b_magenta", fg = "a_bg", modifiers = ["bold"] }
+"ui.help" = { bg = "a_sel" }
+"ui.menu" = { bg = "a_sel" }
+"ui.menu.selected" = { bg = "a_ui" }
+"ui.menu.scroll" = { fg = "a_ui" }
+"ui.popup" = { bg = "a_float" }
+"ui.popup.info" = { bg = "a_float" }
+"ui.virtual.inlay-hint" = { fg = "a_ui" }
+
+"warning" = { fg = "b_yellow" }
+"error" = { fg = "b_red" }
+"info" = { fg = "b_blue" }
+"hint" = { fg = "b_green" }
+"diagnostic" = { modifiers = ["underlined"] }
+"diagnostic.error" = { fg = "b_red", underline = { style = "curl", color = "b_red" } }
+"diagnostic.warning" = { fg = "b_yellow", underline = { style = "curl", color = "b_yellow" } }
+"diagnostic.info" = { fg = "b_blue", underline = { style = "curl", color = "b_blue" } }
+"diagnostic.hint" = { fg = "b_green", underline = { style = "curl", color = "b_green" } }
+
+"number" = { fg = "c_magenta" }
+"constructor" = { fg = "b_yellow" }
+"operator" = { fg = "b_red" }
+"string" = { fg = "b_blue" }
+"string.documentation" = { fg = "b_blue" }
+"string.escape" = { fg = "c_blue" }
+"string.regexp" = { fg = "b_blue" }
+"string.special" = { fg = "b_cyan" }
+"string.special.symbol" = { fg = "a_fg", modifiers = ["italic"] }
+"string.special.path" = { fg = "c_blue" }
+"string.special.url" = { fg = "c_blue" }
+"keyword" = { fg = "c_yellow" }
+"keyword.directive" = { fg = "b_green" }
+"keyword.function" = { fg = "b_green" }
+"keyword.import" = { fg = "b_green" }
+"constant" = { fg = "c_magenta" }
+"constant.builtin" = { fg = "c_magenta" }
+"constant.macro" = { fg = "c_magenta" }
+"module" = { fg = "a_fg" }
+"module.builtin" = { fg = "a_fg" }
+"label" = { fg = "b_cyan" }
+"variable" = { fg = "a_fg" }
+"variable.builtin" = { fg = "a_fg", modifiers = ["italic"] }
+"type" = { fg = "c_cyan" }
+"type.qualifier" = { fg = "c_yellow" }
+"function.macro" = { fg = "b_yellow" }
+"function.call" = { fg = "b_yellow" }
+"punctuation.delimiter" = { fg = "c_red" }
+"punctuation" = { fg = "d_yellow" }
+"comment" = { fg = "a_com", modifiers = ["italic"] }
+"comment.documentation" = { fg = "a_com" }
+"comment.todo" = { fg = "a_com", modifiers = ["bold"] }
+"comment.error" = { fg = "a_com", modifiers = ["bold"] }
+"comment.warning" = { fg = "a_com", modifiers = ["bold"] }
+"comment.note" = { fg = "a_com", modifiers = ["bold"] }
+"markup.heading" = { fg = "c_yellow" }
+"markup.heading.2" = { fg = "b_yellow" }
+"markup.heading.3" = { fg = "b_green" }
+"markup.heading.4" = { fg = "b_cyan" }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.strong" = { modifiers = ["bold"] }
+"markup.underline" = { modifiers = ["underlined"] }
+"markup.quote" = { fg = "a_com", modifiers = ["italic"] }
+"markup.link" = { modifiers = ["underline"] }
+"markup.link.url" = { fg = "c_blue" }
+"markup.raw" = { fg = "a_com" }
+"markup.list" = { fg = "d_yellow" }
+"diff.plus" = { bg = "d_green" }
+"diff.minus" = { bg = "d_red" }
+"diff.delta" = { bg = "d_magenta" }
+"diff.delta.moved" = { fg = "d_blue" }
+"tag.attribute" = { fg = "b_cyan" }
+"tag.delimiter" = { fg = "d_yellow" }
+
+
+[palette]
+# grays
+a_bg = "#292522"
+a_float = "#34302C"
+a_sel = "#403A36"
+a_ui = "#867462"
+a_com = "#C1A78E"
+a_fg = "#ECE1D7"
+
+# bright foreground colors
+b_red = "#D47766"
+b_yellow = "#EBC06D"
+b_green = "#85B695"
+b_cyan = "#89B3B6"
+b_blue = "#A3A9CE"
+b_magenta = "#CF9BC2"
+
+# foreground colors
+c_red = "#BD8183"
+c_yellow = "#E49B5D"
+c_green = "#78997A"
+c_cyan = "#7B9695"
+c_blue = "#7F91B2"
+c_magenta = "#B380B0"
+
+# backround colors
+d_red = "#7D2A2F"
+d_yellow = "#8B7449"
+d_green = "#233524"
+d_cyan = "#253333"
+d_blue = "#273142"
+d_magenta = "#422741"
