@@ -24,6 +24,9 @@ Make sure to restart helix and try to use it by:
 
 ![Rust code from helix core](https://github.com/user-attachments/assets/394860ec-4b5b-4923-8a67-ecf7021fb922)
 
+![2024-10-21T20-06-15](https://github.com/user-attachments/assets/8b5a8ac2-cc50-45f4-92e7-8b8017af5b82)
+
+
 ## LICENSE
 
 This project is distributed under the MIT license.
