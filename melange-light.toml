@@ -24,7 +24,7 @@
 "ui.menu" = { fg = "a_float", bg = "a_fg" }
 "ui.menu.selected" = { bg = "a_ui" }
 "ui.menu.scroll" = { fg = "a_ui" }
-"ui.popup" = { fg = "a_float", bg = "a_fg" }
+"ui.popup" = { fg = "a_fg", bg = "a_float" }
 "ui.popup.info" = { fg = "a_fg", bg = "a_float" }
 "ui.virtual.inlay-hint" = { fg = "a_ui" }
 
