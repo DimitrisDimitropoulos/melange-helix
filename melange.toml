@@ -26,6 +26,10 @@
 "ui.popup" = { fg = "a_fg", bg = "a_float" }
 "ui.popup.info" = { fg = "a_fg", bg = "a_float" }
 "ui.virtual.inlay-hint" = { fg = "a_ui" }
+"ui.background.separator" = { fg = "a_fg" }
+"ui.picker.header" = { fg = "a_fg" }
+"ui.picker.header.column" = { fg = "a_com", modifiers = ["italic", "bold"] }
+"ui.picker.header.column.active" = { fg = "a_sel", bg = "b_magenta", modifiers = ["italic", "bold"] }
 
 "warning" = { fg = "b_yellow" }
 "error" = { fg = "b_red" }
